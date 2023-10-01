@@ -1,0 +1,80 @@
+
+        
+
+
+        body {
+                background-color:rgb(13, 241, 165);
+                font-family: Arial, sans-serif;
+                color: #fff;}
+
+            .container {
+                margin: 50px 30px 30px 30px;
+                background-image: url('https://w.forfun.com/fetch/6d/6d677174474c4842d977ce9fde0f0acf.jpeg'); 
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                border-radius: 15px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                color: #fff; /
+
+            }
+            
+            h1 {
+                font-size: 100px;
+                color: #fc0303;
+                margin: 0;
+            }
+       
+
+        p {
+            font-size: 24px;
+            
+        }
+
+        a {
+            
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            margin-bottom: 10px;
+
+        }
+
+        .gradient-text {
+            font-size: 48px;
+            background-image: linear-gradient(to right, #070707, #7ecdfa);
+            -webkit-background-clip: text; 
+            background-clip: text;
+            color: transparent; 
+        }
+    
+        .image-button {
+            display: inline-block;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .image-button img {
+            display: block;
+            max-width: 50px;
+            height: auto;
+            transition: transform 0.2s ease-in-out;
+        }
+        
+        .image-button:hover img {
+            transform: scale(1.1); /* Augmente la taille de l'image au survol */
+        }
+        
+        
+        
+        
+        
+        
+       
+        
